@@ -1,0 +1,8 @@
+packages: 
+  package: !include common/treatlife_ss01s_light.yaml
+
+substitutions:
+  device_name: "basement-light-015"
+  pretty_name: "Basement Light 015"
+  ui_name: "Basement Light 015"
+  icon: "mdi:lghtbulb"

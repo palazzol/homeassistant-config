@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "person.evan"
+              ]
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "media-control",
+                  "entity": "media_player.all_speakers"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.daves_room"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.den"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.living_room_display"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.living_room"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.marie_s_office"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.master_bedroom"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.wood_shop"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.all_group"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.basement_speaker"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.bathroom_speaker"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.bedroom_speaker"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.home_group"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.kitchen_speaker"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.kitchen_tv"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.living_room_tv"
+                }
+              ]
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.master_bath_tub_pump"
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "living room",
+          "path": "living-room",
+          "badges": [],
+          "cards": [
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_strip_1"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_strip_2"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_strip_3"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_strip_4"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_strip_5"
+            },
+            {
+              "type": "light",
+              "entity": "light.death_star"
+            },
+            {
+              "type": "light",
+              "entity": "light.accent_led_figurines"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_bulb_1"
+            },
+            {
+              "type": "light",
+              "entity": "light.living_room_rgb_bulb_2"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "Basement",
+          "path": "basement",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.basement_light_001"
+                },
+                {
+                  "entity": "light.basement_light_002"
+                },
+                {
+                  "entity": "light.basement_light_003"
+                },
+                {
+                  "entity": "light.basement_light_004"
+                },
+                {
+                  "entity": "light.basement_light_005"
+                },
+                {
+                  "entity": "light.basement_light_006"
+                },
+                {
+                  "entity": "light.basement_light_007"
+                },
+                {
+                  "entity": "light.basement_light_008"
+                },
+                {
+                  "entity": "light.basement_light_009"
+                },
+                {
+                  "entity": "light.basement_light_010"
+                },
+                {
+                  "entity": "light.basement_light_011"
+                },
+                {
+                  "entity": "light.basement_light_012"
+                },
+                {
+                  "entity": "light.basement_light_013"
+                },
+                {
+                  "entity": "light.basement_light_014"
+                },
+                {
+                  "entity": "light.basement_light_015"
+                }
+              ],
+              "title": "Light"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

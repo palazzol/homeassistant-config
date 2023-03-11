@@ -1,0 +1,7 @@
+packages:
+  package: !include common/death_star_rgb.yaml
+
+substitutions:
+  device_name: "death-star"
+  pretty_name: "Death Star"
+  light_restore_mode: RESTORE_DEFAULT_OFF

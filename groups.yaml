@@ -1,0 +1,28 @@
+basement_lights_main:
+  name: basement lights main
+  icon: mdi:bulb
+  entities:
+    - light.basement_light_007
+    - light.basement_light_008
+    - light.basement_light_009
+    - light.basement_light_010
+    - light.basement_light_012
+    - light.basement_light_013
+    - light.basement_light_014
+
+basement_lights_storage:
+  name: basement lights main
+  icon: mdi:bulb
+  entities:
+    - light.basement_light_001
+    - light.basement_light_002
+    - light.basement_light_003
+    - light.basement_light_004
+    - light.basement_light_005
+    - light.basement_light_006
+
+basement_lights_accent:
+  name: basement lights accent
+  icon: mdi:bulb
+  entities:
+    - light.basement_light_011

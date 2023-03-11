@@ -1,0 +1,13 @@
+packages:
+  package: !include common/h801_rgb.yaml
+
+substitutions:
+  device_name: "living-room-rgbstrip-4"
+  pretty_name: "Living Room RGB strip 4"
+  light_restore_mode: RESTORE_DEFAULT_OFF
+
+# esphome:
+# on_boot:
+#     then:
+#     - light.control:
+#         id: light_1
